@@ -2,15 +2,15 @@ alignment: is-left
 style: is-boxed
 size: is-large
 items:
-  - name: Chicken
+  - name: Randomness
     link: /page-4/
     icon: fa-smile-wink
-  - name: Chicken
+  - name: Recipes
     link: /page-1/
     icon: fa-angle-double-right
-  - name: No Sidebar
+  - name: Fan Art
     link: /page-2/
     icon: fa-ellipsis-v
-  - name: Chicken
+  - name: Advice
     link: /page-3/
     icon: fa-bars
