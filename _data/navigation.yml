@@ -1,0 +1,13 @@
+- name: Pages
+  link: #
+  dropdown:
+    - name: Recipes
+      link: /page-1/
+    - name: Fan Art
+      link: /page-2/
+    - name: Advice
+      link: /page-3/
+    - name: Randomness
+      link: /page-4/
+- name: Info About Chicken
+  link: /blog/
