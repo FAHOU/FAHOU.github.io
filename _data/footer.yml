@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Info About Chicken
+- name: About Chicken
   link: /blog/
 - name: WARNINGS!!!
   link: /privacy-policy/
