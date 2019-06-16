@@ -2,7 +2,7 @@ alignment: is-left
 style: is-boxed
 size: is-large
 items:
-  - name: Randomness
+  - name: Random
     link: /page-4/
     icon: fa-smile-wink
   - name: Recipes
