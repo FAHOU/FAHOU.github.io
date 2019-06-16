@@ -1,1 +1,60 @@
-remote_theme: chrisrhymes/bulma-clean-theme
+# Site Settings
+title: Chicken
+tagline: Website dedicated to chicken
+email: chickenthusiast213@gmail.com
+description: >
+  Have a great day! Bonne journée!
+baseurl: "/"
+url: ""
+permalink: pretty
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+google_analytics: UA-142206843-1
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "C.Hicken"
+      layout: post
+      image: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/6/3/1/FNM_070111-Fried-Chicken-026_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382539796174.jpeg
+      show_sidebar: false
+
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: What is this?
